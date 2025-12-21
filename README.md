@@ -49,7 +49,7 @@ Inserção | O(N) | O(1)
 Eliminção | (ON) | O(1)
 
 
-## Recursão
+## 3. Recursão
 
 ### O que eu entendi: 
 
@@ -65,3 +65,18 @@ Eliminção | (ON) | O(1)
 
 * No começo eu tive dificuldade em entender como funciona o gerenciamento de memória nas pilhas
 * Mas, conforme avança o capítulo e com uns exemplos, isso fica mais fácil de entender
+
+## 4. Quicksort
+
+### o que eu entendi: 
+
+* É a forma de ordenar mais eficiente
+* Sua velocidade varia de O(n²) (mais lento) até O(n*log(n)) (mais rápido)
+* Entendi um pouco melhor sobre a notação Big O 
+* Dois códigos com o mesmo tempo de execução em Big O podem ter tempos de execução diferentes
+
+### O que eu não entendi:
+
+* Como funciona o merge sort
+* O que define a constante no tempo de execução
+* Tudo bem, acho que o livro não pretende se aprofundar nessa parte
