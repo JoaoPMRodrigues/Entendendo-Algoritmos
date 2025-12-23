@@ -79,6 +79,9 @@ Eliminção | (ON) | O(1)
 
 ### O que eu não entendi:
 
+* Como dividir os problemas em problemas menores (DC) na prática
 * Como funciona o merge sort
+* Quicksort vs Merge sort
+* Como aplicar as funções recursivas (preciso treinar mais)
 * O que define a constante no tempo de execução
 * Tudo bem, acho que o livro não pretende se aprofundar nessa parte
