@@ -66,10 +66,12 @@ Eliminção | (ON) | O(1)
 * No começo eu tive dificuldade em entender como funciona o gerenciamento de memória nas pilhas
 * Mas, conforme avança o capítulo e com uns exemplos, isso fica mais fácil de entender
 
-## 4. Quicksort
+## 4. Quicksort e Dividir para Conquistar (DC)
 
 ### o que eu entendi: 
 
+* DC é uma das técnicas usadas para resolver problemas complexos
+* Consiste em pegar um problema grande e dividi-lo em problemas menores
 * É a forma de ordenar mais eficiente
 * Sua velocidade varia de O(n²) (mais lento) até O(n*log(n)) (mais rápido)
 * Entendi um pouco melhor sobre a notação Big O 

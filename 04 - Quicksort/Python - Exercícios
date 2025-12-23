@@ -1,0 +1,62 @@
+# Definindo as funções
+
+def maiorQuadrado(a, b):
+    """Calcular o maior quadrado possível para 
+    preencher um retângulo com esses 2 lados 
+    (descobrindo o mdc deles com o algoritmo
+    de Euclides)"""
+
+    if b == 0:
+        return a
+    else:
+        return maiorQuadrado(b, a % b)
+
+
+def soma(arr=[0]):
+    """Soma todos os elementos
+    de uma lista usando recursão"""
+    if len(arr) == 1:
+        return arr[0]
+    else:
+        valor = arr[0]
+        pos = 1
+        return valor+soma(arr[pos:])
+
+
+def tamanho(arr=[]):
+    """Calcula o tamanho do array 
+    usando uma função recursiva"""
+    if len(arr) == 0:
+        return 0
+    elif len(arr) == 1:
+        return 1
+    else:
+        return 1 + tamanho(arr[1:])
+
+
+def maior(arr=[]):
+    """Retorna o maior valor 
+    dentro de uma lista usando
+    recursão"""
+    if len(arr) == 0:
+        return None
+    elif len(arr) == 1:
+        return arr[0]
+    else:
+        if arr[0] > maior(arr[1:]):
+            return arr[0]
+        else:
+            return maior(arr[1:])
+
+
+# Definindo variáveis de teste
+
+a, b = 180, 160
+arr = [1, 2, 3, 4, 5]
+
+# Analisando os resultados
+
+print(maiorQuadrado(a, b))
+print(soma(arr))
+print(tamanho(arr))
+print(maior(arr))
