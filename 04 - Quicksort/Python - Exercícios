@@ -26,9 +26,7 @@ def soma(arr=[0]):
 def tamanho(arr=[]):
     """Calcula o tamanho do array 
     usando uma função recursiva"""
-    if len(arr) == 0:
-        return 0
-    elif len(arr) == 1:
+    if len(arr) == 1:
         return 1
     else:
         return 1 + tamanho(arr[1:])
@@ -38,9 +36,7 @@ def maior(arr=[]):
     """Retorna o maior valor 
     dentro de uma lista usando
     recursão"""
-    if len(arr) == 0:
-        return None
-    elif len(arr) == 1:
+    if len(arr) == 1:
         return arr[0]
     else:
         if arr[0] > maior(arr[1:]):
