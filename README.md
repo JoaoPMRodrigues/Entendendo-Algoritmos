@@ -85,3 +85,21 @@ Eliminção | (ON) | O(1)
 * Como aplicar as funções recursivas (preciso treinar mais)
 * O que define a constante no tempo de execução
 * Tudo bem, acho que o livro não pretende se aprofundar nessa parte
+
+## 5. Tabelas Hash
+
+* São uma forma de armazenar dados
+* Ela pode ser muito eficiente O(1) ou não mt eficiente O(N)
+* Na maior parte das linguagens já existe uma função hash
+* No python ela é o dict()
+* São ótimas pra verificar repetição e ser memória cache
+* Foi uma parte bem tranquila de compreender as ideias
+* Mas também foi muito importante, melhorei meu entendimento sobre memória e dados
+* Tabela de comparação dos tempos de execução:
+* mc = melhor caso / pc = pior caso
+
+BIG O | Arrays | Listas | Hash (mc) | Hash (pc)
+---|---|---|---|---
+Leitura | O(1) | O(N) | O(1) | O(N)
+Inserção | O(N) | O(1) | O(1) | O(N)
+Eliminção | (ON) | O(1) | O(1) | O(N)
