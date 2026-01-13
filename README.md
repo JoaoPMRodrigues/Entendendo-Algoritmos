@@ -95,9 +95,10 @@ Eliminção | (ON) | O(1)
 * São ótimas pra verificar repetição e ser memória cache
 * Foi uma parte bem tranquila de compreender as ideias
 * Mas também foi muito importante, melhorei meu entendimento sobre memória e dados
-* Tabela de comparação do tempo de execução (melhor caso e pior caso):
+* Tabela de comparação dos tempos de execução:
+* mc = melhor caso / pc = pior caso
 
-BIG O | Arrays | Listas | Hash | Hash
+BIG O | Arrays | Listas | Hash (mc) | Hash (pc)
 ---|---|---|---|---
 Leitura | O(1) | O(N) | O(1) | O(N)
 Inserção | O(N) | O(1) | O(1) | O(N)
