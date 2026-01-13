@@ -95,11 +95,28 @@ Eliminção | (ON) | O(1)
 * São ótimas pra verificar repetição e ser memória cache
 * Foi uma parte bem tranquila de compreender as ideias
 * Mas também foi muito importante, melhorei meu entendimento sobre memória e dados
-* Tabela de comparação dos tempos de execução:
-* mc = melhor caso / pc = pior caso
+* Tabela de comparação do tempo de execução (melhor caso e pior caso):
 
-BIG O | Arrays | Listas | Hash (mc) | Hash (pc)
+BIG O | Arrays | Listas | Hash | Hash
 ---|---|---|---|---
 Leitura | O(1) | O(N) | O(1) | O(N)
 Inserção | O(N) | O(1) | O(1) | O(N)
 Eliminção | (ON) | O(1) | O(1) | O(N)
+
+## 6. Pesquisa em Largura
+
+### O que eu entendi:
+
+* O conceito de grafos e dígrafos
+* O que são filas 
+* Difenças entre filas e pilhas
+* O básico sobre árvores
+* O que é pesquisa em largura
+* O que são vértices e arestas
+* O tempo de execução é a soma desses 2
+
+### O que eu não entendi:
+
+* O que é o `deque()` do `import collections`
+* Como aplicar a pesquisa em largura e grafos em exercícios práticos
+* Toda a parte de aplicação no geral, apesar deu ter gostado do conceito
